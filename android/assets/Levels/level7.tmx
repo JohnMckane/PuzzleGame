@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="5" height="5" tilewidth="32" tileheight="32" nextobjectid="48">
+ <tileset firstgid="1" name="tile" tilewidth="32" tileheight="32" tilecount="5" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="Blue"/>
+   </properties>
+   <image width="32" height="32" source="blue.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+   <image width="32" height="32" source="green.png"/>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+   <image width="32" height="32" source="orange.png"/>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+   <image width="32" height="32" source="red.png"/>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Class" value="Yellow"/>
+   </properties>
+   <image width="32" height="32" source="yellow.png"/>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="5" height="5" visible="0">
+  <data encoding="csv">
+0,0,2,0,0,
+0,4,1,4,0,
+2,4,2,3,2,
+0,3,1,4,0,
+0,0,2,0,0
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="31" gid="5" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Yellow"/>
+   </properties>
+  </object>
+  <object id="32" gid="1" x="96" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Blue"/>
+   </properties>
+  </object>
+  <object id="33" gid="2" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="34" gid="4" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="35" gid="3" x="96" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="36" gid="2" x="96" y="32" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="37" gid="4" x="128" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="38" gid="3" x="128" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="39" gid="4" x="128" y="128" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="40" gid="1" x="96" y="128" width="32" height="32">
+   <properties>
+    <property name="Class" value="Blue"/>
+   </properties>
+  </object>
+  <object id="41" gid="5" x="0" y="128" width="32" height="32">
+   <properties>
+    <property name="Class" value="Yellow"/>
+   </properties>
+  </object>
+  <object id="42" gid="1" x="32" y="128" width="32" height="32">
+   <properties>
+    <property name="Class" value="Blue"/>
+   </properties>
+  </object>
+  <object id="43" gid="4" x="32" y="160" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="44" gid="3" x="32" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="45" gid="3" x="64" y="160" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="46" gid="4" x="96" y="160" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="47" gid="3" x="128" y="160" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

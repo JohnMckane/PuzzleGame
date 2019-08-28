@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="3" height="3" tilewidth="32" tileheight="32" nextobjectid="40">
+ <tileset firstgid="1" name="test" tilewidth="32" tileheight="32" tilecount="2" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <properties>
+   <property name="Class" value=""/>
+  </properties>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+   <image width="32" height="32" source="red.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+   <image width="32" height="32" source="green.png"/>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="3" height="3">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="29" gid="1" x="0" y="32" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="30" gid="1" x="64" y="32" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="31" gid="1" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="32" gid="1" x="32" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="33" gid="1" x="0" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="34" gid="2" x="32" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="35" gid="2" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="36" gid="2" x="32" y="32" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="37" gid="2" x="0" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

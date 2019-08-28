@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="32" tileheight="32" nextobjectid="63">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32" tilecount="4" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+   <image width="32" height="32" source="red.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+   <image width="32" height="32" source="orange.png"/>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+   <image width="32" height="32" source="green.png"/>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Class" value="Blue"/>
+   </properties>
+   <image width="32" height="32" source="blue.png"/>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="44" gid="4" x="32" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Blue"/>
+   </properties>
+  </object>
+  <object id="45" gid="3" x="32" y="32" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="46" gid="1" x="0" y="32" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="47" gid="2" x="0" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="48" gid="1" x="32" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="49" gid="2" x="0" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="50" gid="2" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="51" gid="2" x="32" y="128" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="54" gid="1" x="96" y="32" width="32" height="32">
+   <properties>
+    <property name="Class" value="Red"/>
+   </properties>
+  </object>
+  <object id="55" gid="2" x="96" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="56" gid="2" x="64" y="32" width="32" height="32">
+   <properties>
+    <property name="Class" value="Orange"/>
+   </properties>
+  </object>
+  <object id="57" gid="3" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="58" gid="3" x="96" y="96" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="59" gid="3" x="96" y="128" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="60" gid="3" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+  <object id="61" gid="3" x="0" y="128" width="32" height="32">
+   <properties>
+    <property name="Class" value="Green"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
